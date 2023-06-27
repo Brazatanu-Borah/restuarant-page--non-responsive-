@@ -1,0 +1,103 @@
+html {
+   height: 100%;
+}
+
+body {
+   /* background-color: #2f3035; */
+   /* text-align: center; */
+   
+   background-image: url(body-bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+a {
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+   width: 1024px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+header {
+   /* background-color:blue; */
+   height: 118px;
+   /* width: 1024px; */
+   text-align: center;
+}
+
+nav {
+   /* background-color: red; */
+   /* width: 1024px; */
+   background-color: rgba(0, 0, 0, 0.35);
+   text-align: center;
+   
+   /* height: 40px; */
+   padding-top: 14px;
+   padding-bottom: 14px;
+}
+
+nav a {
+   font-size: 12px;
+   text-decoration: none;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+main {
+   /* background-color: orange; */
+   height: 400px;
+   /* width: 1024px; */
+   text-align: center;
+
+   padding-top: 80px;
+   padding-left: 240px;
+   padding-right: 240px;
+}
+
+h1 {
+   font-size: 84px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+   font-size: 18px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 45px;
+}
+
+h2 {
+   font-size: 24px;
+}
+
+.google-map, .contact-form {
+   width: 500px;
+   display: inline-block;
+}
+
+h3 {
+   font-size: 20px;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+   /* background-color: greenyellow; */
+   background-color: rgba(0, 0, 0, 0.76);
+   /* width: 1024px; */
+   /* height: 100px; */
+   padding-top: 40px; 
+   padding-bottom: 10px; 
+}
+
+footer p {
+   text-align: center;
+   font-size: 10px;
+   color: rgb(198, 198, 198);
+}
