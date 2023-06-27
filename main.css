@@ -28,6 +28,7 @@ header {
    height: 118px;
    /* width: 1024px; */
    text-align: center;
+   padding-top: 40px;
 }
 
 nav {
@@ -77,8 +78,27 @@ h2 {
 }
 
 .google-map, .contact-form {
-   width: 500px;
+   width: 450px;
    display: inline-block;
+}
+
+.google-map {
+   margin-right: 57px;
+}
+
+.contact-form {
+   margin-left: 57px;
+}
+
+form input, form textarea {
+   background-color: #e6e6e6;
+   width: 100%;
+   border: none;
+   border-radius: 2px;
+}
+
+form input {
+   height: 30px;
 }
 
 h3 {
